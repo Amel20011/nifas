@@ -1,0 +1,31 @@
+{
+  "name": "liviaa-chantika-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Aesthetic dengan tema soft",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": ["whatsapp-bot", "baileys", "aesthetic", "liviaa"],
+  "author": "Liviaa Chantika",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.4.0",
+    "@whiskeysockets/baileys": "^6.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "moment-timezone": "^0.5.43",
+    "node-cron": "^3.0.2",
+    "sharp": "^0.33.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.5",
+    "form-data": "^4.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
